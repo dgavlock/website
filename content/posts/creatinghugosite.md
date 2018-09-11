@@ -1,9 +1,12 @@
 +++ 
 draft = false
-date = 2018-09-11T17:02:18-04:00
-title = ""
-slug = "" 
+date = 2018-09-11T17:10:51-04:00
+title = "Creating a Hugo Site with GitHub Pages"
+slug = "creatinghugosite" 
+tags = []
+categories = []
 +++
+
 
 
 # Quick Backstory
