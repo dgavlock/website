@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Dillon Gavlock">
+    <meta name="description" content="This is where I write stuff">
+    <meta name="keywords" content="blog,developer,personal">
+
+    <base href="https://dgavlock.github.io/">
+    <title>
+  Creating a Hugo Site with GitHub Pages · Dillon Gavlock
+</title>
+
+    <link rel="canonical" href="https://dgavlock.github.io/posts/creatinghugosite/">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" integrity="sha256-oSrCnRYXvHG31SBifqP2PM1uje7SJUyX0nTwO2RJV54=" crossorigin="anonymous" />
+
+    
+      
+      
+      <link rel="stylesheet" href="https://dgavlock.github.io/css/coder.min.abce80b399251e443d0eb203f8dcd83f185f5fc84e61955fcb6b092b954987f8.css" integrity="sha256-q86As5klHkQ9DrID&#43;NzYPxhfX8hOYZVfy2sJK5VJh/g=" media="screen">
+    
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="https://dgavlock.github.io/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://dgavlock.github.io/images/favicon-16x16.png" sizes="16x16">
+
+    
+
+    <meta name="generator" content="Hugo 0.48" />
+  </head>
+
+  <body class="">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="https://dgavlock.github.io/">
+      Dillon Gavlock
+    </a>
+    <input type="checkbox" id="menu-toggle" />
+    <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
+    <ul class="navigation-list">
+      
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://dgavlock.github.io/about/">About</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://dgavlock.github.io/posts/">Blog</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://dgavlock.github.io/projects/">Projects</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://dgavlock.github.io/contact/">Contact</a>
+          </li>
+        
+      
+      
+    </ul>
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container post">
+  <article>
+    <header>
+      <h1 class="title">Creating a Hugo Site with GitHub Pages</h1>
+      <h2 class="date">September 11, 2018</h2>
+
+      
+    </header>
+
+    
+
+<h1 id="quick-backstory">Quick Backstory</h1>
+
+<p>So I&rsquo;ve just begun my journey as a web developer and I was stumbling along trying to create a website when I came across an awesome static site generator called Hugo!</p>
+
+<p><strong>This is my first post so I hope it&rsquo;s useful</strong> :)</p>
+
+<h1 id="what-is-hugo">What is Hugo?</h1>
+
+<p>Hugo self-proclaims that they are the &ldquo;fastest framework for building websites,&rdquo; and I have to say they&rsquo;ve made the task pretty simple even for a beginner like me! After a bit of trial-and-error, and some youtubing I was able to get a site up and running on GitHub Pages very quickly! With that said, there were some things I found unclear so I&rsquo;m going to attempt to write a step-by-step of what I went through to help others have a smoother time getting their website up and running!</p>
+
+<h1 id="introduction-necessary-installations">Introduction &amp; Necessary Installations</h1>
+
+<p><strong>Note: If you have Homebrew and Go skip to <a href="#Getting-started-with-Hugo">here</a>, also if you haven&rsquo;t <a href="https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup">configured git</a> or have a <a href="https://github.com/">github</a> account please do both of those things. Use the email you used to create a github account to configure git!</strong></p>
+
+<h2 id="installing-homebrew">Installing Homebrew</h2>
+
+<p><strong>Note: If you have Homebrew you can skip to downloading go</strong></p>
+
+<p>I&rsquo;m going to start with no assumptions here so we will begin by having you install homebrew for MacOS which is super simple and makes life with other tasks way more simple later!Open the terminal by pressing Command + Space and typing &ldquo;terminal&rdquo; then pressing enter, then copy and paste the following (You should be in your Home directory):</p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"> /usr/bin/ruby -e &#34;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&#34;</pre></div>
+<p>You&rsquo;ll want to accept any prompts that are thrown and BAM! done! You can now get brewing! (Note: Check out <a href="https://brew.sh/">Homebrew</a> which is where I got this code). This will make the next couple steps much nicer!</p>
+
+<h2 id="installing-go">Installing Go</h2>
+
+<p><strong>Note: If you have Go already installed go ahead and skip this as well!</strong></p>
+
+<p>Now that you have homebrew, to install Go you will need to type the following into the terminal:</p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4">brew install go</pre></div>
+<p>Again, accept any prompts until the download is complete and you will end up with Go installed! If you don&rsquo;t know what Go is it&rsquo;s a programming language created by Google, which is becoming more popular everyday, Hugo will leverage this language to create the website framework. If you are interested in more about Go, <a href="https://golang.org/doc/">Go here</a> (Pun intended)</p>
+
+<h1 id="getting-started-with-hugo">Getting started with Hugo</h1>
+
+<p>If you are here you should have the following installed:
+* Homebrew
+* Go</p>
+
+<h2 id="installing-hugo">Installing Hugo</h2>
+
+<p>Now for installing Hugo, as you might have guessed installing Hugo is just as simple as the previous two installs. Simply type the following:</p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4">brew install hugo</pre></div>
+<p>That&rsquo;s it! we are ready to begin working with Hugo!</p>
+
+<h2 id="setting-up-for-hugo">Setting up for Hugo</h2>
+
+<p>Let&rsquo;s set up a directory to do all our work in. In your terminal go to your home directory by typing the following:</p>
+
+<p><code>cd ~</code></p>
+
+<p>then to make a directory name &ldquo;Sites&rdquo; type: <code>mkdir Sites</code></p>
+
+<p>move into that directory <code>cd Sites</code></p>
+
+<p>Now that you&rsquo;re in the Sites directory you can now begin to work with Hugo here.
+The first step is really simple type:</p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4">hugo new site yoursitename</pre></div>
+<p>The hugo new site command will will create the skeleton of your site. You should see the following prompt after you execute the command</p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4">Congratulations! Your new Hugo site is created in /Users/YourName/Sites/yoursitename.
+
+Just a few more steps and you&#39;re ready to go:
+
+1. Download a theme into the same-named folder.
+   Choose a theme from https://themes.gohugo.io/, or
+   create your own with the &#34;hugo new theme &lt;THEMENAME&gt;&#34; command.
+2. Perhaps you want to add some content. You can add single files
+   with &#34;hugo new &lt;SECTIONNAME&gt;/&lt;FILENAME&gt;.&lt;FORMAT&gt;&#34;.
+3. Start the built-in live server via &#34;hugo server&#34;.
+
+Visit https://gohugo.io/ for quickstart guide and full documentation.</pre></div>
+<p>These direction are the next steps you need to take to get your site where you want it. We are going to go over them lightly so you can understand what these components are and how to interact with them. Now you should <code>cd yoursitename</code> and then <code>ls</code> to check out the directory and you will see the following:</p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4">archetypes content layouts static config.toml themes data</pre></div>
+<p>This is the skeleton of your Hugo site, it is here where you will work with creating new content for your site which I&rsquo;ve cover once we get your site posted to GitHub. The important thing to notice here is the <code>theme</code> directory. The theme directory is where you will be customizing your site.</p>
+
+<h2 id="hugo-themes">Hugo Themes</h2>
+
+<p>Hugo allows you to create your own themes or download pre-made open source themes that others have made! The pre-made options are perfect for getting started with Hugo so that&rsquo;s the route we are going here.</p>
+
+<p>The premade themes can be found at the <a href="https://themes.gohugo.io/">Hugo Themes</a> page.</p>
+
+<p>Pick a theme.</p>
+
+<p>(for the tutorial you will see the Coder theme that I used for my site).
+{% github luizdepra/hugo-coder %}</p>
+
+<p>Once you pick a theme click download on its page which will bring you to its github repository. Once there click the green &ldquo;clone or download&rdquo; button <strong>Note: make sure you click &ldquo;Use SSH&rdquo; on the popup box</strong> then copy the SSH key. Now that you have copied the SSH key go back to your terminal, make sure you are in the <code>themes</code> directory type <code>git clone</code> and press <code>control + v</code> to paste it into the terminal, then enter! <strong>Note: if you do not have git configured check <a href="https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup">this</a> article out</strong> Now you should have a repository with the name <code>coder</code> or whatever theme you chose; <code>cd coder</code> and then &lsquo;ls&rsquo; to see the content of the directory.</p>
+
+<p>These are all the files you will need to make your site look just like the theme you chose! Now <code>cd exampleSite</code> and check out the files there.</p>
+
+<p>Now, the easiest way I found to get your site up and running quickly is to take the files from <code>exampleSite</code> and replace them with the files you created when you ran the <code>hugo new site sitename</code> command. In other words, move everything from <code>content</code> in the <code>exampleSite</code> directory into the <code>content</code> under the <code>yoursitename</code> directory. So you will do that for all the files in the <code>exampleSite</code> directory until that directory is completely empty. Anywhere that there&rsquo;s duplication like the <code>config.toml</code> file remove the one created by the <code>hugo new site</code> command. Then move everything else out of the coder directory even if it doesn&rsquo;t have a matching place just move it up out of coder and into youwebsitename directory. The only files you don&rsquo;t need to move are:</p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4">theme.toml README.md Makefile LICENSE.md</pre></div>
+<p><strong>It is extremely important that you move everything correctly!</strong></p>
+
+<p>Once you have done that go to the config.toml file and look around. it should look like this (without the notes I have added to the right with the &lt;- before it telling you what to change in the file to customize the website) if you use the coder theme.</p>
+
+<h3 id="important-you-need-to-change-the-baseurl-to-what-is-specified-below"><strong>Important: You need to change the baseurl to what is specified below!</strong></h3>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4">baseurl = &#34;http://examplesite&#34; &lt;- Change to http://yourgithubusername.github.io
+
+title = &#34;johndoe&#34; &lt;- Name your website here
+
+theme = &#34;hugo-coder&#34; 
+
+languagecode = &#34;en&#34; 
+
+paginate = 20
+canonifyurls = true
+
+pygmentsstyle = &#34;b2&#34;
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+disqusShortname = &#34;yourdiscussshortname&#34; &lt;- Your short name for commenting
+
+[params]
+    author = &#34;John Doe&#34; &lt;- Your name
+    description = &#34;John Doe&#39;s personal website&#34; &lt;- How you would describe the site
+    keywords = &#34;blog,developer,personal&#34;
+    info = &#34;Full Stack DevOps and Magician&#34; &lt;- A small description of what your are
+    avatarurl = &#34;images/avatar.jpg&#34; &lt;- your image
+    footercontent = &#34;Enter a text here.&#34; &lt;- a footer (quotes are nice)
+
+    hideCredits = false
+    hideCopyright = false
+
+    rtl = false
+
+    # Custom CSS
+    custom_css = []
+
+[[params.social]]
+    name = &#34;Github&#34;
+    icon = &#34;fab fa-github fa-2x&#34;
+    weight = 1
+    url = &#34;https://github.com/johndoe/&#34; &lt;- Change to your Github profile url
+[[params.social]]
+    name = &#34;Gitlab&#34;
+    icon = &#34;fab fa-gitlab fa-2x&#34;
+    weight = 2
+    url = &#34;https://gitlab.com/johndoe/&#34; &lt;- Change to your GitLab profile url
+[[params.social]]
+    name = &#34;Twitter&#34;
+    icon = &#34;fab fa-twitter fa-2x&#34;
+    weight = 3
+    url = &#34;https://twitter.com/johndoe/&#34; &lt;- Change to your twitter profile url
+[[params.social]]
+    name = &#34;LinkedIn&#34;
+    icon = &#34;fab fa-linkedin fa-2x&#34;
+    weight = 4
+    url = &#34;https://www.linkedin.com/in/johndoe/&#34; &lt;- Change to your Linkedin profile url
+[[params.social]]
+    name = &#34;Medium&#34;
+    icon = &#34;fab fa-medium fa-2x&#34;
+    weight = 5
+    url = &#34;https://medium.com/@johndoe&#34; &lt;- Change to your medium profile url
+
+[[menu.main]]
+    name = &#34;Blog&#34;
+    weight = 1
+    url  = &#34;/posts/&#34;
+[[menu.main]]
+    name = &#34;About&#34;
+    weight = 2
+    url = &#34;/about/&#34;
+[[menu.main]]
+    name = &#34;Projects&#34;
+    weight = 3
+    url = &#34;/projects/&#34;
+[[menu.main]]
+    name = &#34;Contact me&#34;
+    weight = 5
+    url = &#34;/contact/&#34;
+
+[languages]
+    [languages.en]
+        languagename = &#34;English&#34; # The language name to be displayed in the selector.
+        title = &#34;John Doe&#34;
+
+        # You can configure the theme parameter for each language.
+        [languages.en.params]
+        author = &#34;John Doe&#34; &lt;- Your name
+        info = &#34;Full Stack DevOps and Magician&#34; &lt;- What you do
+        description = &#34;John Doe&#39;s personal website&#34; &lt;- quick description
+        keywords = &#34;blog,developer,personal&#34;
+
+        [languages.en.menu] # It is possible to change the menu too.
+
+        [[languages.en.menu.main]]
+        name = &#34;About&#34;
+        weight = 1.0
+        url = &#34;/about/&#34;
+
+        [[languages.en.menu.main]]
+        name = &#34;Blog&#34;
+        weight = 2.0
+        url = &#34;/posts/&#34;
+
+        [[languages.en.menu.main]]
+        name = &#34;Projects&#34;
+        weight = 3
+        url = &#34;/projects/&#34;
+        [[languages.en.menu.main]]
+        name = &#34;Contact me&#34;
+        weight = 5
+        url = &#34;/contact/&#34;
+
+------------------------delete below (unless you know polish) ----------------
+    [languages.pl]
+        languagename = &#34;Polski&#34;
+        title = &#34;John Doe po polsku&#34;
+
+        [languages.pl.params]
+            author = &#34;John Doe&#34;
+            description = &#34;Strona domowa John&#39;a Doe&#34;
+            keywords = &#34;blog,developer,strona domowa&#34;
+            info = &#34;Full Stack DevOps i Magik&#34;
+
+        [languages.pl.menu]
+
+            [[languages.pl.menu.main]]
+            name = &#34;O mnie&#34;
+            weight = 1.0
+            url = &#34;/pl/about/&#34;
+
+            [[languages.pl.menu.main]]
+            name = &#34;Blog&#34;
+            weight = 2.0
+            url = &#34;/pl/posts/&#34;
+
+            [[languages.pl.menu.main]]
+            name = &#34;projektowanie&#34;
+            weight = 3
+            url = &#34;/projektowanie/&#34;
+            [[languages.pl.menu.main]]
+            name = &#34;kontakt&#34;
+            weight = 5
+            url = &#34;/kontakt/&#34;
+-------------------------------------------------------------------</pre></div>
+<p>Save the file with your changes. Now go to your terminal and go to the directory <code>yoursitename</code></p>
+
+<h2 id="hosting-your-hugo-site-locally">Hosting Your Hugo Site Locally</h2>
+
+<p>Now that you made the basic changes to the website it&rsquo;s time to host your website on a locally! This will allow you to see what your website looks like before you put it on the internet for people to see!</p>
+
+<p><strong>Make sure your in the directory <code>yoursitename</code></strong> and type</p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4">hugo server</pre></div>
+<p>read the instructions there and paste the localhost url to your browser!</p>
+
+<p>Presto! You have your own website! Congratulations! All the links should work and have the <code>exampleSite</code> post and info in them! If they don&rsquo;t you&rsquo;ll want to check and make sure you moved everything correctly outside of the <code>exampleSite</code> directory.</p>
+
+<p>Now that you have an awesome site go to the <code>about.md</code> file and write about yourself then refresh you browser on the about page. You should see that the website updates automatically in your browser! This is really handy for prototyping posts! Play around with the files a bit to begin to understand how things are organized in the directory and how they look on the browser website. Understanding how things are laid out will make using Hugo later much more intuitive.</p>
+
+<h2 id="the-basics-of-creating-new-content">The Basics of Creating New Content</h2>
+
+<p>To create a new file in your hugo site is really simple. First, you&rsquo;ll always want to be in your <code>yoursitename</code> directory when creating new content then you will always us the <code>hugo new (contentpathhere)</code> command. Try making a new post with the following command</p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4">hugo new posts/firstpost.md</pre></div>
+<p>Find firstpost.md and edit it with something, then make sure the <code>draft</code> setting in the header is changed to <code>false</code> instead of <code>true</code>. Save that file and go to the browser and refresh the page, then go to blog and BAM! You created your very first post on your site! THis is the basic process for making new post on a hugo site, you should read more about creating new content when your more comfortable with the basics of Hugo!</p>
+
+<h2 id="hosting-on-github-pages">Hosting on GitHub Pages</h2>
+
+<p>Now that you made the basic site we will host it for everyone to see on GitHub! GitHub provides this service for free so don&rsquo;t worry about paying for a thing!</p>
+
+<p>The first thing you&rsquo;ll want to do is to go to github and create two repositories</p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4">1. A repository with the exact name as your website directory &#39;yoursitename&#39;
+2. A repository with the name &#39;yourgithubusername.github.io&#39;</pre></div>
+<p>Once you create those repositories grab the SSH key from the repository with the exact name of your website and then go to your site directory <code>yoursitename</code> and type <code>git init</code> and then type <code>git add remote</code> and paste the SSH key after that. Then type <code>git pull origin master</code>.</p>
+
+<p>Now <code>cd ..</code> to go to the <code>Sites</code> directory and type <code>git clone</code> and add the SSH key from the &lsquo;yourgithubusername.github.io&rsquo;. Once cloned <code>cd yoursitename</code>, type <code>hugo -d ../yourgithubusername.github.io</code>. Now type <code>git add .</code> and then <code>git commit -m 'initial commit</code>, and lastly <code>git push origin master</code>. Now go to GitHub and go to the &lsquo;yourgithubusername.github.io&rsquo; repository and click settings scroll until you see the link to your website that says <a href="http://yourgitubusername.github.io">http://yourgitubusername.github.io</a>. You should now see your site on the web here! Congrats! You now served a website on GitHub Pages! Now you can direct your friends, family, and potential employers to this address to show them all the cool things you post and do!</p>
+
+<h2 id="the-end">The End</h2>
+
+<p>I hope this was helpful to those looking to create their first website quickly and please feel free to comment with suggested changes or questions! I will help to clarify anything!</p>
+
+<p>Thank you so much for reading my first post!</p>
+
+  </article>
+
+  <br/>
+
+  
+      <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "Dillon" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+  
+  
+</section>
+
+      </div>
+
+      <footer class="footer">
+  <section class="container">
+    
+      <p>I love to create stuff</p>
+    
+     © 2018    ·  Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>. 
+  </section>
+</footer>
+
+    </main>
+
+    
+
+  </body>
+
+</html>

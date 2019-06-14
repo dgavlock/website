@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dillon Gavlock</title>
+    <link>https://dgavlock.github.io/</link>
+    <description>Recent content on Dillon Gavlock</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 11 Sep 2018 17:10:51 -0400</lastBuildDate>
+    
+	<atom:link href="https://dgavlock.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Creating a Hugo Site with GitHub Pages</title>
+      <link>https://dgavlock.github.io/posts/creatinghugosite/</link>
+      <pubDate>Tue, 11 Sep 2018 17:10:51 -0400</pubDate>
+      
+      <guid>https://dgavlock.github.io/posts/creatinghugosite/</guid>
+      <description>Quick Backstory So I&amp;rsquo;ve just begun my journey as a web developer and I was stumbling along trying to create a website when I came across an awesome static site generator called Hugo!
+This is my first post so I hope it&amp;rsquo;s useful :)
+What is Hugo? Hugo self-proclaims that they are the &amp;ldquo;fastest framework for building websites,&amp;rdquo; and I have to say they&amp;rsquo;ve made the task pretty simple even for a beginner like me!</description>
+    </item>
+    
+    <item>
+      <title>First Post</title>
+      <link>https://dgavlock.github.io/posts/first-post/</link>
+      <pubDate>Sun, 09 Sep 2018 21:56:26 -0400</pubDate>
+      
+      <guid>https://dgavlock.github.io/posts/first-post/</guid>
+      <description>Hey this is my first post on this blog; thanks for beging here!</description>
+    </item>
+    
+    <item>
+      <title>FlowChain</title>
+      <link>https://dgavlock.github.io/projects/flowchain/</link>
+      <pubDate>Sun, 09 Sep 2018 21:45:35 -0400</pubDate>
+      
+      <guid>https://dgavlock.github.io/projects/flowchain/</guid>
+      <description>Introduction FlowChain is my attempt at creating a blockchain.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://dgavlock.github.io/contact/</link>
+      <pubDate>Sun, 09 Sep 2018 20:30:25 -0400</pubDate>
+      
+      <guid>https://dgavlock.github.io/contact/</guid>
+      <description>You can get ahold of me with all of these options:
+Phone: 570-660-3689
+Email: dgavlock@gmail.com</description>
+    </item>
+    
+    <item>
+      <title>About Me</title>
+      <link>https://dgavlock.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dgavlock.github.io/about/</guid>
+      <description>Background I grew up in a small town in central Pennsylvania call Lock Haven! It&amp;rsquo;s a quite little place with beautiful views and a great community of awesome people! Lock Haven has a big place in my heart as it&amp;rsquo;s where I&amp;rsquo;ve spent most of my time until now. It&amp;rsquo;s where I met my wife (in high school), then went to college (Lock Haven University), and where I cultivated my love for the outdoors!</description>
+    </item>
+    
+  </channel>
+</rss>

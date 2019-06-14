@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://dgavlock.github.io/posts/creatinghugosite/</loc>
+    <lastmod>2018-09-11T17:10:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dgavlock.github.io/posts/first-post/</loc>
+    <lastmod>2018-09-09T21:56:26-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dgavlock.github.io/projects/flowchain/</loc>
+    <lastmod>2018-09-09T21:45:35-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dgavlock.github.io/contact/</loc>
+    <lastmod>2018-09-09T20:30:25-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dgavlock.github.io/about/</loc>
+  </url>
+  
+  <url>
+    <loc>https://dgavlock.github.io/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://dgavlock.github.io/</loc>
+    <lastmod>2018-09-11T17:10:51-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://dgavlock.github.io/posts/</loc>
+    <lastmod>2018-09-11T17:10:51-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://dgavlock.github.io/projects/</loc>
+    <lastmod>2018-09-09T21:45:35-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://dgavlock.github.io/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Dillon Gavlock</title>
+    <link>https://dgavlock.github.io/posts/</link>
+    <description>Recent content in Posts on Dillon Gavlock</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 11 Sep 2018 17:10:51 -0400</lastBuildDate>
+    
+	<atom:link href="https://dgavlock.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Creating a Hugo Site with GitHub Pages</title>
+      <link>https://dgavlock.github.io/posts/creatinghugosite/</link>
+      <pubDate>Tue, 11 Sep 2018 17:10:51 -0400</pubDate>
+      
+      <guid>https://dgavlock.github.io/posts/creatinghugosite/</guid>
+      <description>Quick Backstory So I&amp;rsquo;ve just begun my journey as a web developer and I was stumbling along trying to create a website when I came across an awesome static site generator called Hugo!
+This is my first post so I hope it&amp;rsquo;s useful :)
+What is Hugo? Hugo self-proclaims that they are the &amp;ldquo;fastest framework for building websites,&amp;rdquo; and I have to say they&amp;rsquo;ve made the task pretty simple even for a beginner like me!</description>
+    </item>
+    
+    <item>
+      <title>First Post</title>
+      <link>https://dgavlock.github.io/posts/first-post/</link>
+      <pubDate>Sun, 09 Sep 2018 21:56:26 -0400</pubDate>
+      
+      <guid>https://dgavlock.github.io/posts/first-post/</guid>
+      <description>Hey this is my first post on this blog; thanks for beging here!</description>
+    </item>
+    
+  </channel>
+</rss>

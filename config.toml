@@ -22,8 +22,8 @@ disqusShortname = "Dillon"
     avatarurl = "images/dillon300.jpeg"
     footercontent = "I love to create stuff"
 
-    hideCredits = false
-    hideCopyright = false
+    hideCredits = true
+    hideCopyright = true
 
     rtl = false
 
@@ -36,15 +36,15 @@ disqusShortname = "Dillon"
     weight = 1
     url = "https://github.com/dgavlock/"
 [[params.social]]
-    name = "Gitlab"
-    icon = "fab fa-gitlab fa-2x"
-    weight = 2
-    url = "https://gitlab.com/dgavlock/"
-[[params.social]]
     name = "Twitter"
     icon = "fab fa-twitter fa-2x"
-    weight = 3
+    weight = 2
     url = "https://twitter.com/dillongav31/"
+[[params.social]]
+    name = "Google"
+    icon = "fab fa-google fa-3x"
+    weight = 3
+    url = "https://dev.to/dgavlock"
 [[params.social]]
     name = "LinkedIn"
     icon = "fab fa-linkedin fa-2x"
@@ -69,9 +69,9 @@ disqusShortname = "Dillon"
     weight = 3
     url = "/projects/"
 [[menu.main]]
-    name = "Contact"
+    name = "Resume"
     weight = 4
-    url = "/contact/"
+    url = "/resume/"
 
 
 [languages]
@@ -102,7 +102,9 @@ disqusShortname = "Dillon"
         name = "Projects"
         weight = 3
         url = "/projects/"
+
         [[languages.en.menu.main]]
-        name = "Contact"
-        weight = 4
-        url = "/contact/"
+        name = "Resume"
+        weight = 5
+        url = "/resume/"
+
