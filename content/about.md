@@ -8,6 +8,12 @@ I grew up in a small town in central Pennsylvania call Lock Haven! It's a quite 
 
 <iframe align="center" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48076.888804566974!2d-77.47930583889749!3d41.13877064752028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89ce5ecacec14a51%3A0x26c24f7e098f649!2sLock+Haven%2C+PA+17745!5e0!3m2!1sen!2sus!4v1536534862335" width="400" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
 
-After completing my degree I decided to move to Pittsburgh, PA with my wife in order to start our life together and find employment in my field (Biology). I found just that after some trial and error, and made my way to the University of Pittsburgh, where the Drug Discovery Institute graciously took me in as part of their team of lab technicians. It was around this time that I also became interested in statistics and data science, after completing some courses at the Graduate School of Public Health I realized that I really enjoyed coding and learning about computers in general! Now, I've begun to teach myself how to code and have started with data science & web development [**projects**](/projects/)! If you're intested in what I've done you should check them out! I've been fortunate enough to be apart of some awesome biomedical research which you should also check out on my [**resume**](resume.md)!
+After completing my degree my wife and I decided to move to Pittsburgh, PA to start our life together and find employment in my field (Biology). After some time I made my way to the University of Pittsburgh, where the Drug Discovery Institute graciously took me in as part of their team as a research technician. It was around this time that I also became interested in statistics and data science, after completing some courses at the Graduate School of Public Health I realized that I really enjoyed coding and learning about computers in general! Now, I've begun to teach myself how to code and have started with data science & web development [**projects**](/projects/)! If you're intested in what I've done you should check them out! I've been fortunate enough to be apart of some awesome biomedical research which you should also check out on my [**resume**](/resume/)!
 
-## 
+## Currently
+
+Right now I am beginning my masters in Computational Biotechnology and Biomedicine at the University of Pittsburgh School of Medicine under the Computation and Systems Biology Department! My anticipated graduation is in the spring of 2021! Many of the blog posts here will follow the outline of what I am learning during my masters with random other stuff along the way!
+
+Recently published a paper in Nature Scientific Reports titled: [**Modeling the Effects of the Metastatic Microenvironment on Phenotypes Conferred by Estrogen Receptor Mutations Using a Human Liver Microphysiological System**](https://www.nature.com/articles/s41598-019-44756-5)
+feel free to check that out!
+

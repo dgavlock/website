@@ -43,7 +43,7 @@ Industry
 * Eastern Wrestling League All-Academic Team, 2012-2013 Academic Year
 
 ### Publications
-**Modeling the Effects of the Metastatic Microenvironment on Phenotypes Conferred by Estrogen Receptor Mutations Using a Human Liver Microphysiological System**
+**[Modeling the Effects of the Metastatic Microenvironment on Phenotypes Conferred by Estrogen Receptor Mutations Using a Human Liver Microphysiological System](https://www.nature.com/articles/s41598-019-44756-5)**
 Mark T. Miedel1,2, Dillon C. Gavlock1,2, Shanhang Jia1,3, D. Lansing Taylor1,2,4, Andrew M. Stern1,2
 Scientific Reports. 2019
 

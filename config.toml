@@ -20,7 +20,7 @@ disqusShortname = "Dillon"
     keywords = "blog,developer,personal"
     info = "Research Technician and Graduate Student"
     avatarurl = "images/dillon300.jpeg"
-    footercontent = "I love to create stuff"
+    footercontent = "Family.Friends.Computers.Biology"
 
     hideCredits = true
     hideCopyright = true
@@ -42,9 +42,14 @@ disqusShortname = "Dillon"
     url = "https://twitter.com/dillongav31/"
 [[params.social]]
     name = "Google"
-    icon = "fab fa-google fa-3x"
+    icon = "fab fa-google fa-2x"
     weight = 3
     url = "https://dev.to/dgavlock"
+[[params.social]]
+    name = "ResearchGate"
+    icon = "fab fa-researchgate fa-2x"
+    weight = 3
+    url = "https://www.researchgate.net/profile/Dillon_Gavlock2"
 [[params.social]]
     name = "LinkedIn"
     icon = "fab fa-linkedin fa-2x"
@@ -55,6 +60,7 @@ disqusShortname = "Dillon"
     icon = "fab fa-medium fa-2x"
     weight = 5
     url = "https://medium.com/@dgavlock"
+
 
 [[menu.main]]
     name = "Blog"
