@@ -1,4 +1,4 @@
-baseurl = "https://dgavlock.github.io/"
+baseurl = "https://dillongavlock.dev/"
 title = "Dillon Gavlock"
 
 theme = "coder"
@@ -42,7 +42,7 @@ disqusShortname = "Dillon"
     url = "https://twitter.com/dillongav31/"
 [[params.social]]
     name = "Google"
-    icon = "fab fa-google fa-2x"
+    icon = "fab fa-dev"
     weight = 3
     url = "https://dev.to/dgavlock"
 [[params.social]]
