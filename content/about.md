@@ -12,8 +12,6 @@ After completing my degree my wife and I decided to move to Pittsburgh, PA to st
 
 ## Currently
 
-Right now I am beginning my masters in Computational Biotechnology and Biomedicine at the University of Pittsburgh School of Medicine under the Computation and Systems Biology Department! My anticipated graduation is in the spring of 2021! Many of the blog posts here will follow the outline of what I am learning during my masters with random other stuff along the way!
-
 Recently published a paper in Nature Scientific Reports titled: [**Modeling the Effects of the Metastatic Microenvironment on Phenotypes Conferred by Estrogen Receptor Mutations Using a Human Liver Microphysiological System**](https://www.nature.com/articles/s41598-019-44756-5)
 feel free to check that out!
 

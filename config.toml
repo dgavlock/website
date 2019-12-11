@@ -18,7 +18,7 @@ disqusShortname = "Dillon"
     author = "Dillon Gavlock"
     description = "This is where I write stuff"
     keywords = "blog,developer,personal"
-    info = "Research Technician and Graduate Student"
+    info = "Research Technician and Student"
     avatarurl = "images/dillon300.jpeg"
     footercontent = "Family.Friends.Computers.Biology"
 
@@ -42,7 +42,7 @@ disqusShortname = "Dillon"
     url = "https://twitter.com/dillongav31/"
 [[params.social]]
     name = "Google"
-    icon = "fab fa-dev"
+    icon = "fab fa-dev fa-2x"
     weight = 3
     url = "https://dev.to/dgavlock"
 [[params.social]]

@@ -22,13 +22,12 @@ B.S. Biology/Chemistry, Lock Haven University, Spring 2016
 
 Non-Degree, University of Pittsburgh Graduate School of Public Health, 12 Credits, 2017-2018
 
-M.S. Computational Biotechnology and Biomedicine, University of Pittsburgh School of Medicine, 2019-Present
-
 
 ### Work History
 #### Academia
 * Research Technician, University of Pittsburgh Drug Discovery Institute, Pittsburgh PA, Summer 2016-Present
-Industry
+
+#### Industry
 
 * Microbiology Laboratory Intern, West Pharmaceutical Services, Jersey Shore PA, Summer 2015
 
