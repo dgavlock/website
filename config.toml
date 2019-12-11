@@ -18,7 +18,7 @@ disqusShortname = "Dillon"
     author = "Dillon Gavlock"
     description = "This is where I write stuff"
     keywords = "blog,developer,personal"
-    info = "Research Technician and Graduate Student"
+    info = "Research Technician"
     avatarurl = "images/dillon300.jpeg"
     footercontent = "Family.Friends.Computers.Biology"
 
@@ -88,7 +88,7 @@ disqusShortname = "Dillon"
         # You can configure the theme parameter for each language.
         [languages.en.params]
         author = "Dillon Gavlock"
-        info = "Research Technician and Graduate Student"
+        info = "Research Technician"
         description = "Working hard to improve the world in any way."
         keywords = "blog,developer,personal"
 
