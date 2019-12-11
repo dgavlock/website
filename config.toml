@@ -18,11 +18,7 @@ disqusShortname = "Dillon"
     author = "Dillon Gavlock"
     description = "This is where I write stuff"
     keywords = "blog,developer,personal"
-<<<<<<< HEAD
     info = "Research Technician and Student"
-=======
-    info = "Research Technician"
->>>>>>> 68d76412dbfa3488e48d735ae72b20acdccb49bc
     avatarurl = "images/dillon300.jpeg"
     footercontent = "Family.Friends.Computers.Biology"
 
