@@ -1,27 +1,20 @@
-+++ 
++++
 draft = false
 date = 2019-06-13T23:57:34-04:00
 title = "Resume"
-slug = "resume" 
+slug = "resume"
 +++
 
 
 Dillon Gavlock
-
-98 Jordan Ave.
-
 Pittsburgh, PA. 15215
-
-570-660-3689
-
-dcg33@pitt.edu 
+dcg33@pitt.edu
 
 
 ### Education
+M.S. Computational Biomedicine and Biotechnology, University of Pittsburgh School of Medicine, Spring 2021
+
 B.S. Biology/Chemistry, Lock Haven University, Spring 2016
-
-Non-Degree, University of Pittsburgh Graduate School of Public Health, 12 Credits, 2017-2018
-
 
 ### Work History
 #### Academia
@@ -48,7 +41,7 @@ Scientific Reports. 2019
 
 ### Acknowledgements
 **Connecting Neuronal Cell Protective Pathways and Drug Combinations in a Huntington’s Disease Model through the Application of Quantitative Systems Pharmacology**
-Fen Pei, Hongchun Li, Mark J. Henderson, Steven A. Titus, Ajit Jadhav, Anton Simeonov, Murat Can Cobanoglu, Seyed H. Mousavi, Tongying Shun, Lee McDermott, Prema Iyer, 
+Fen Pei, Hongchun Li, Mark J. Henderson, Steven A. Titus, Ajit Jadhav, Anton Simeonov, Murat Can Cobanoglu, Seyed H. Mousavi, Tongying Shun, Lee McDermott, Prema Iyer,
 Michael Fioravanti, Diane Carlisle, Robert M. Friedlander, Ivet Bahar, D. Lansing Taylor, Timothy R. Lezon, Andrew M. Stern, Mark E. Schurdak
 Scientific Reports. 2017
 ### Presentations & Posters
@@ -119,7 +112,7 @@ Division I Wrestling Team Member, Lock Haven University, Lock Haven PA, 2012-201
 * Imaging/Microscopy
    * InCell Analyzer 6000
    * EtaLuma 720
-* Image Quantification/Analysis 
+* Image Quantification/Analysis
 ### Computational Skills
 * Python, Basic
 * TensorFlow, Basic
@@ -139,7 +132,7 @@ Division I Wrestling Team Member, Lock Haven University, Lock Haven PA, 2012-201
    * Hugo
    * Django
 ### Interests
-#### Educational 
+#### Educational
 * Computer Programming
 * Statistics
 * Biological Systems
@@ -148,7 +141,7 @@ Division I Wrestling Team Member, Lock Haven University, Lock Haven PA, 2012-201
 * Machine Learning
 * Computer Vision
 * Economics
-* Social Psychology 
+* Social Psychology
 #### Recreational
 * Walk/Hiking
 * Reading
